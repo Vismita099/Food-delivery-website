@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup1.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-section">
+        <h2>Create an Account</h2>
+        <p>Savory Delights Await! Fuel Your Cravings with a Click</p>
+        <form id="signupForm">
+          <label>Username</label>
+          <input type="text" placeholder="Enter your Username" />
+
+          <label>Email Address</label>
+          <input type="email" placeholder="Enter your email address" />
+
+          <label>Password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter your password"
+          />
+
+          <label>Confirm Password</label>
+          <input
+            type="password"
+            id="confirmPassword"
+            placeholder="Confirm your password"
+          />
+          <p id="message"></p>
+
+          <button type="submit">Sign Up</button>
+
+          <div class="separator">
+            <span>or</span>
+          </div>
+
+          <div class="social-login">
+            <button class="google-button">
+              <img
+                src="https://www.pngmart.com/files/16/Google-Logo-PNG-Image.png"
+                alt="Google Logo"
+              />
+              Sign Up with Google
+            </button>
+            <button class="apple-button">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+                alt="Apple Logo"
+              />
+              Sign Up with Apple
+            </button>
+          </div>
+          <p class="login-link">
+            Already have an account? <a href="login.html">Log in</a>
+          </p>
+        </form>
+      </div>
+
+      <div class="illustration-section">
+        <img
+          src="https://images.pexels.com/photos/21581347/pexels-photo-21581347/free-photo-of-chocolate-truffles-in-box.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="Illustration"
+        />
+      </div>
+    </div>
+
+        <script src="signup.js"></script>
+      </body>
+    </html>
+  </body>
+</html>
